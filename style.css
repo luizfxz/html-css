@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@font-face {
+    font-family: 'droid';
+    src: url(idroid.otf), format('opentype');
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+:root {
+    --cor0: #C5EBD6;
+    --cor1:#83E1AD;
+    --cor2: #3DDC84;
+    --cor3: #2FA866;
+    --cor4: #063D1E;
+    --font0: Arial, Helvetica, sans-serif;
+    --font1: 'Bebas Neue', cursive;
+    --font2: 'droid', sans-serif;
+}
+
+body {
+    background-color: #83e1ad;
+}
+header {
+    text-align: center;
+    font-family: var(--font1);
+    background-image: linear-gradient(to top, var(--cor4), var(--cor3)) ;
+    color: white; 
+}
+.text_princ {
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.027);
+}
+a {
+    margin: 17px;
+}
+header > p {
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.027);
+    padding: 20px;
+    text-align: center;
+    font-weight: 500;
+    font-style: italic;
+}
+header > nav {
+    text-align: left;
+    color: white;
+    padding: 0px;
+}
+nav > a {
+    text-decoration: none;
+    color: white;
+}
+nav > a:hover {
+    background-color: #2FA866;
+    padding-bottom: 0.5px;
+}
+#conteudo {
+    font-weight: 700;
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+}
+h1.titulo.main {
+    font-family: 'droid';
+    font-weight: 600;
+}
+.lista_f {
+    background-color: var(--cor1);
+    margin: 5px;
+    border-radius: 5px;
+}
+.inicio_lista {
+    color: rgb(255, 255, 255);
+    background-color: var(--cor3);
+    border-radius: 5px;
+    padding-left: 5px;
+
+}
+div > p {
+    margin: 5px;
+    padding: 5px;
+    text-indent: 30px;
+    text-align: justify;
+}
+ul {
+    list-style-type: '\2714';
+    columns: 2;
+    list-style-position: inside;
+    padding: 10px;
+    margin: 10px;
+}
+li > span {
+    text-decoration: underline;
+}
+.android_history {
+    margin: 1.5px;
+    text-decoration: none;
+    color: var(--cor4);
+}
+.android_history:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
